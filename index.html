@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de Clientes - NatDance</title>
+</head>
+<body>
+    <header>
+        <img class="logo">
+        <h2 class="header">REGISTRO DE CLIENTES</h2>
+    </header>
+
+    <form id="clienteForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" required><br><br>
+
+        <label for="estilo">Estilo de Baile:</label>
+        <select id="estilo" required>
+            <option value="urbano">Baile Urbano</option>
+            <option value="jazz">Jazz</option>
+            <option value="contemporaneo">Contemporáneo</option>
+        </select><br><br>
+
+        <button type="submit">Guardar</button>
+    </form>
+
+    <div id="mensaje"></div>
+
+    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="container">
+          <p tabindex="0"> &copy; 2023 NatDance. Todos los derechos reservados.</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/tahiryn.cedeno" target="_blank" rel="noopener noreferrer">
+              <img src="images/face.png" alt="Icono de Facebook">
+            </a>
+            <a href="https://instagram.com/nat_creative27?igshid=NzZlODBkYWE4Ng==" target="_blank" rel="noopener noreferrer">
+              <img src="images/insta.png" alt="Icono de Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <img src="images/tweyter.png" alt="Icono de Instagram">
+            </a>
+            <p tabindex="0"> &copy; Autor: CEDEÑO MORA TAHIRY NAYELY</p>
+            <!-- Agrega más enlaces e iconos para otras redes sociales si lo deseas -->
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
